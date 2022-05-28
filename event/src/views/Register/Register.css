@@ -1,0 +1,32 @@
+.m-b-1 {
+    margin-bottom: 1rem;
+}
+.m-b-2 {
+    margin-bottom: 2rem;
+}
+
+.Register .btn {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    background-color: var(--primary-clr);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .02rem;
+    margin-top: 1rem;
+}
+
+.Register .btn:hover {
+    background-color: var(--dark-purple-clr);
+}
+.Register .btn:active {
+    background-color: #8a5e8a;
+}
+
+/* -- Reg form star -- */
+
+.Register .form-control {
+    margin-top: 2rem;
+}

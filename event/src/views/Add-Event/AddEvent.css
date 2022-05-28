@@ -1,0 +1,48 @@
+.AddEvent .btn {
+    padding: .5rem 4rem;
+    background-color: var(--primary-clr);
+    margin-bottom: 2rem;
+}
+.AddEvent .btn-control {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* --Form-- */
+
+.AddEvent .form-control {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+/* --Text-area-- */
+
+.AddEvent .label{
+    margin-bottom: 1rem;
+    color: var(--dark-grey-clr);
+    font-weight: 500;
+}
+
+.AddEvent .text-area {
+    resize: none;
+    width: 100%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid var(--light-grey-clr);
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.AddEvent .text-area[type=text] {
+    padding: 7px 12px;
+    font-size: 15px;
+}
+
+.AddEvent .text-area:focus{
+    outline: 1px solid var(--secondary-clr);
+    border: 1px solid var(--secondary-clr);
+}
+
+
+

@@ -1,0 +1,94 @@
+:root {
+  --primary-clr: #CBAACB;
+  --secondary-clr: #97C1A9;
+  --dark-purple-clr: #9A699A;
+  --light-grey-clr: #BFC0C0;
+  --dark-grey-clr: #4E4E4E;
+}
+.App {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.primary-wrap h3 {
+  color: var(--primary-clr);
+}
+
+.primary-wrap{
+  padding: 1rem;
+  width: 100%;
+}
+
+.primary-wrap .line {
+  border-top: 1px solid var(--light-grey-clr);
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.head-title {
+  font-size: 100px;
+  color: var(--secondary-clr);
+  display: none;
+  justify-content: flex-end;
+  align-items: flex-end;  
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+
+
+@media(min-width: 992px){
+  .head-title {
+      display: flex;
+      margin-top: 1rem;
+  }
+
+  .primary-wrap {
+    margin-top: 7.3rem;
+    margin-left: 30rem;
+    width: 870px;
+  }
+
+  .primary-wrap .line {
+    width: 100%;
+  }
+
+  .App {
+    display: flex;
+  }
+}

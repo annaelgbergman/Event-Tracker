@@ -1,0 +1,31 @@
+.EventDetail .mt-1 {
+    margin-top: 1.5rem;
+}
+.EventDetail .text-ctrl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.EventDetail .text-ctrl h4 {
+    color: var(--dark-grey-clr);
+    font-size: 20px;
+}
+.EventDetail .text-ctrl h2 {
+    color: var(--primary-clr);
+}
+.EventDetail .place-txt {
+    font-size: 15px;
+    color: var(--dark-grey-clr);
+}
+.EventDetail .detail-txt {
+    width: 90%;
+}
+.EventDetail .time-ctrl {
+    display: flex;
+}
+.EventDetail .fa-clock {
+    color: #8b8b8b;
+    margin-right: .5rem;
+    margin-top: .2rem;
+}
+

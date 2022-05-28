@@ -1,0 +1,115 @@
+/* -- Event-Card -- */
+.PreviousCardEvent .left-card {
+    padding: .5rem;
+}
+
+.PreviousCardEvent .right-card {
+    padding: 1rem;
+}
+
+.PreviousCardEvent .line-vertical {
+    height: 250px;
+    border-left: 1px solid var(--light-grey-clr);
+}
+
+.PreviousCardEvent .card-control {
+    display: flex;
+    align-items: center;
+}
+
+.PreviousCardEvent .link-text {
+    color: var(--dark-grey-clr);
+    text-decoration: overline;
+}
+
+.PreviousCardEvent .left-card h3 {
+    color: var(--dark-grey-clr);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.PreviousCardEvent .left-card h1 {
+    font-size: 60px;
+    margin-top: 1.5rem;
+    color: var(--dark-grey-clr);
+}
+
+.PreviousCardEvent .line-sm {
+    width: 50px;
+    border-top: 1px solid var(--light-grey-clr);
+    margin-left: .6rem;
+    margin-top: .3rem;
+}
+
+.PreviousCardEvent .right-card h2 {
+    font-size: 28px;
+    color: var(--secondary-clr);
+    font-weight: 500;
+}
+.PreviousCardEvent .right-card h2::first-letter{
+    text-transform: capitalize;
+}
+
+.PreviousCardEvent .right-card .time-p {
+    color: var(--light-grey-clr);
+    font-size: 13px;
+    margin-right: .5rem;
+    margin-top: .2rem;
+}
+
+.PreviousCardEvent .right-card .time-group {
+    display: flex;
+}
+
+.PreviousCardEvent .right-card .link-text {
+    color: var(--dark-grey-clr);
+}
+
+.PreviousCardEvent .line-bm {
+    border-top: 1px solid var(--light-grey-clr);
+}
+.PreviousCardEvent .desc-info {
+    font-size: 16px;
+}
+
+/* -- MEDIA QUERIES --*/
+
+@media(min-width: 425px) {
+    .PreviousCardEvent .left-card {
+        padding: 2rem;
+    }
+        
+    .PreviousCardEvent .right-card {
+        padding: 3rem;
+    }
+
+    .PreviousCardEvent .line-vertical{
+        height: 190px;
+    }
+
+}
+
+@media(min-width: 992px) {
+
+    .PreviousCardEvent .left-card {
+        padding: 4rem;
+    }
+
+    .PreviousCardEvent .right-card {
+        padding: 4rem;
+    }
+
+    .PreviousCardEvent .line-vertical {
+        height: 200px;
+    }
+
+    .PreviousCardEvent .right-card h2 {
+        font-size: 30px;
+    }
+
+    .PreviousCardEvent .right-card .time-p {
+        font-size: 15px;
+    }
+
+}

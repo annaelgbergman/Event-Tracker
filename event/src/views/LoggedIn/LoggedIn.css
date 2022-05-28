@@ -1,0 +1,4 @@
+.LoggedIn p {
+    margin-top: 1rem;
+    color: var(--dark-grey-clr);
+}

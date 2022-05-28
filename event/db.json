@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "title": "Snart går denna ut",
+      "place": "Snart",
+      "dateTime": "2022-05-30T01:15",
+      "textArea": "",
+      "userId": 9,
+      "id": 1
+    },
+    {
+      "title": "Linnea",
+      "place": "Linnea",
+      "dateTime": "2022-05-29T01:18",
+      "textArea": "",
+      "userId": 8,
+      "id": 2
+    },
+    {
+      "title": "Nu då?",
+      "place": "",
+      "dateTime": "2022-05-29T01:19",
+      "textArea": "",
+      "userId": 8,
+      "id": 3
+    },
+    {
+      "title": "Funkar?",
+      "place": "Hoppas",
+      "dateTime": "2022-05-29T01:21",
+      "textArea": "",
+      "userId": 8,
+      "id": 4
+    },
+    {
+      "title": "hej",
+      "place": "hej",
+      "dateTime": "2022-05-29T01:22",
+      "textArea": "",
+      "userId": 8,
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "email": "linnea@mail.se",
+      "password": "$2a$10$szVlEUwJLWlexsD5PilGLejTk1ewl9FQxaB5wP7.sS6C5r02wb.BG",
+      "firstName": "Linnéa",
+      "id": 8
+    },
+    {
+      "email": "anna@mail.se",
+      "password": "$2a$10$.qk4cok4Il/AVTWoWdB1GOU2DY13TqE2Dc6zHjUPFwjZV3KGLeux.",
+      "firstName": "anna",
+      "id": 9
+    }
+  ]
+}

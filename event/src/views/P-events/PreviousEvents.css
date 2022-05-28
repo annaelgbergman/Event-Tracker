@@ -1,0 +1,19 @@
+.PreviousEvent p {
+    margin-top: 1rem;
+    color: var(--dark-grey-clr);
+}
+
+.PreviousEvent h4 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--dark-grey-clr);
+}
+
+.PreviousEvent .go-to-link {
+    color: var(--dark-purple-clr);
+}
+
+.PreviousEvent .go-to-link:hover {
+    text-decoration: underline;
+}

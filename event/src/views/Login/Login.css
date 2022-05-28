@@ -1,0 +1,53 @@
+/* -- Help classes -- */
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.Login .btn {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    background-color: var(--primary-clr);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .02rem;
+}
+.Login .btn:hover {
+    background-color: var(--dark-purple-clr);
+}
+.Login .btn:active {
+    background-color: #8a5e8a;
+}
+
+/* -- login form -- */
+
+.Login .form-control {
+    margin-top: 2rem;
+}
+
+.Login .link-title, .Login .link {
+    font-size: 15px;
+}
+
+.Login .link-title {
+    color: var(--dark-grey-clr);
+    margin-top: 1rem;
+}
+
+.Login .link {
+    color: var(--dark-purple-clr) ;
+    text-decoration: underline;
+}
+
+.Login .link:hover, .Login .link:active {
+    color: #8a5e8a;
+}
+
+.Login .error {
+    color: #ff675f;
+}
