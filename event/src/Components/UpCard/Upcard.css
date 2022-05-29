@@ -101,66 +101,10 @@
 
     .UpcomingEventsCard .line-vertical {
         height: 200px;
-        border-left: 1px solid var(--light-grey-clr);
-    }
-
-    .UpcomingEventsCard .card-control {
-        display: flex;
-        align-items: center;
-    }
-
-    .UpcomingEventsCard .link-text {
-        color: var(--dark-grey-clr);
-        text-decoration: overline;
-    }
-
-    .UpcomingEventsCard .left-card h3 {
-        color: var(--dark-grey-clr);
-        font-weight: 400;
-        text-transform: uppercase;
-        font-size: 25px;
-    }
-
-    .UpcomingEventsCard .left-card h1 {
-        font-size: 60px;
-        margin-top: 1.5rem;
-        color: var(--dark-grey-clr);
-    }
-
-    .UpcomingEventsCard .line-sm {
-        width: 50px;
-        border-top: 1px solid var(--light-grey-clr);
-        margin-left: .6rem;
-        margin-top: .3rem;
     }
 
     .UpcomingEventsCard .right-card h2 {
         font-size: 30px;
-        color: var(--secondary-clr);
-        font-weight: 500;
-    }
-
-    .UpcomingEventsCard .right-card .time-p {
-        color: var(--light-grey-clr);
-        margin-right: .5rem;
-        margin-top: .2rem;
-        margin-bottom: 5rem;
-    }
-    
-    .UpcomingEventsCard .right-card .time-group {
-        display: flex;
-    }
-
-    .UpcomingEventsCard .right-card .link-text {
-        color: var(--dark-grey-clr);
-    }
-
-    .UpcomingEventsCard .right-card .link-text:hover, .link-text:active {
-        color: var(--dark-purple-clr);
-    }
-
-    .UpcomingEventsCard .line-bm {
-        border-top: 1px solid var(--light-grey-clr);
     }
 
     .UpcomingEventsCard .right-card .time-p {

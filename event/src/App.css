@@ -79,9 +79,9 @@ ul, li {
   }
 
   .primary-wrap {
-    margin-top: 7.3rem;
-    margin-left: 30rem;
-    width: 870px;
+    margin-top: 8.2rem;
+    margin-left: 25rem;
+    width: 850px;
   }
 
   .primary-wrap .line {
@@ -90,5 +90,11 @@ ul, li {
 
   .App {
     display: flex;
+  }
+}
+
+@media (min-width: 1366px) {
+  .primary-wrap {
+    margin-left: 35rem;
   }
 }

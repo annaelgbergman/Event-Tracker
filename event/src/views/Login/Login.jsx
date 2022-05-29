@@ -64,10 +64,7 @@ const Login = () => {
 
   return (
     <div className='Login'>
-      <div className='container-wrap'>
         <h1 className='head-title'>Event.</h1>
-
-        <div className='secondary-container'>
           <form className='primary-wrap' onSubmit={handleSubmit}>
             <h3>Please login to see or create event</h3>
               <div className='line'></div>
@@ -80,8 +77,6 @@ const Login = () => {
             <button className='btn m-b-1'>{ loading ? 'Loading' : 'Login'}</button>
             <p className='error'>{error && 'The email adress or password you entered is incorrect, please try again'}</p>
           </form>
-        </div>
-      </div>
     </div>
   )
 }

@@ -12,6 +12,7 @@ const PreviousEvents = () => {
   const isAuth = useSelector(state => state.auth.token)
   const { data: events } = useSelector(state => state.events)
   const userId = useSelector(state => state.auth.userId)
+  const loading = useSelector(state=> state.events.loading)
   const [pastEvents, setPastEvents] = useState([])
 
   useEffect(() => {
@@ -36,7 +37,7 @@ const PreviousEvents = () => {
             }
             <div className='line'></div>
             { isAuth 
-            ? <>{pastEvents.length ? pastEvents.map(event=> < Card  key={event.id} event={event}/>) : <h4>No previous events yet, go to <Link to='/upcomingevents' className='go-to-link'>Upcoming Events</Link> to see when your event will start</h4> }</>
+            ? <> { loading ? <div className='loading'></div> : pastEvents.length ? pastEvents.map(event=> < Card  key={event.id} event={event}/>) : <h4>No previous events yet, go to <Link to='/upcomingevents' className='go-to-link'>Upcoming Events</Link> to see when your event will start</h4> }</>
             : <div></div>
             }
           </div>

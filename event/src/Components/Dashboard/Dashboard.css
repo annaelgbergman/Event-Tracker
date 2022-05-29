@@ -149,64 +149,64 @@
         padding: 0 5px;
     }
 
+    /* -- Curve outside -- */
 
-/* -- Curve outside -- */
-.Dashboard ul li:hover .dash-control::before{
-    content: '';
-    position: absolute;
-    right: 58px;
-    top: -50px;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    border-radius: 50%;
-    box-shadow: 35px 35px 0 10px #fff;
-    pointer-events: none;
-}
-.Dashboard ul li:hover .dash-control::after{
-    content: '';
-    position: absolute;
-    right: 58px;
-    bottom: -50px;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    border-radius: 50%;
-    box-shadow: 35px -35px 0 10px #fff;
-    pointer-events: none;
-}
-.Dashboard ul li .dash-link.active .dash-control::before{
-    content: '';
-    position: absolute;
-    right: 58px;
-    top: -50px;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    border-radius: 50%;
-    box-shadow: 35px 35px 0 10px #fff;
-    pointer-events: none;
-}
-.Dashboard ul li .dash-link.active .dash-control::after{
-    content: '';
-    position: absolute;
-    right: 58px;
-    bottom: -50px;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    border-radius: 50%;
-    box-shadow: 35px -35px 0 10px #fff;
-    pointer-events: none;
-}
+    .Dashboard ul li:hover .dash-control::before{
+        content: '';
+        position: absolute;
+        right: 58px;
+        top: -50px;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        box-shadow: 35px 35px 0 10px #fff;
+        pointer-events: none;
+    }
+    .Dashboard ul li:hover .dash-control::after{
+        content: '';
+        position: absolute;
+        right: 58px;
+        bottom: -50px;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        box-shadow: 35px -35px 0 10px #fff;
+        pointer-events: none;
+    }
+    .Dashboard ul li .dash-link.active .dash-control::before{
+        content: '';
+        position: absolute;
+        right: 58px;
+        top: -50px;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        box-shadow: 35px 35px 0 10px #fff;
+        pointer-events: none;
+    }
+    .Dashboard ul li .dash-link.active .dash-control::after{
+        content: '';
+        position: absolute;
+        right: 58px;
+        bottom: -50px;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        box-shadow: 35px -35px 0 10px #fff;
+        pointer-events: none;
+    }
 
-/* -- Active-Link -- */
+    /* -- Active-Link -- */
 
-.Dashboard ul li .dash-link.active .dash-control {
-    background: #fff;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    text-decoration: none;
-} 
+    .Dashboard ul li .dash-link.active .dash-control {
+        background: #fff;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        text-decoration: none;
+    } 
 
 }

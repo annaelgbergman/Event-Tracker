@@ -30,3 +30,7 @@
 .Register .form-control {
     margin-top: 2rem;
 }
+
+.Register .error {
+    color: #ff675f;
+}

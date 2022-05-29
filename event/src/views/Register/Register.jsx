@@ -1,5 +1,4 @@
 import './Register.css'
-// import { Link } from 'react-router-dom'
 import FormInput from '../../Components/FormInput/FormInput'
 import { useState, useEffect } from 'react'
 import { useDispatch, useSelector  } from 'react-redux'
@@ -52,7 +51,6 @@ const Register = () => {
     }
   ]
 
-  // Ska du ha en loading, får du lägga till det med useSelector
   const onChange = e => {
     setValues(state => ({
       ...state,

@@ -12,6 +12,7 @@ const UpcomingEvents = () => {
   const { data: events } = useSelector(state => state.events)
   const isAuth = useSelector(state => state.auth.token)
   const userId = useSelector(state => state.auth.userId)
+  const loading = useSelector(state=> state.events.loading)
   const [upcomingEvents, setUpcomingEvents] = useState([])
 
 
@@ -38,10 +39,11 @@ const UpcomingEvents = () => {
             :<h3>Please login to see events</h3>
             }
               <div className='line'></div>
-            { isAuth 
-            ? <> {upcomingEvents.length ? upcomingEvents.map(event => < Card  key={event.id} event={event}/>) : <h4>No upcoming events, go to <Link to='/addevent' className='go-to-link'>Add Event</Link> to register some new events</h4>}</>
-            : <div></div>
-            }
+              { isAuth 
+              ? <> {loading ? <div className='loading'></div> : upcomingEvents.length ? upcomingEvents.map(event => < Card  key={event.id} event={event}/>) : <h4>No upcoming events, go to <Link to='/addevent' className='go-to-link'>Add Event</Link> to register some new events</h4>}</>
+              : <div></div>
+              }
+              
           </div>
     </div>
   )
